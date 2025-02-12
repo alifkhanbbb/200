@@ -42,7 +42,7 @@ while attemps < 12345677901:
     password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
 
     if username == 'LOVE' and password == 'YOU2':
-        print(' \033[1;31mYou \033[1;32mHave \033[1;33mSuccessfully \033[1;34mLogged in.')
+        print('[green_yellow] You Have Successfully Logged in.')
         break
 R="[bold red]"
 G="[bold green]"
@@ -661,23 +661,22 @@ logo=("""
 
 
   \033[1;91m█████▒▄▄▄▄       ██ ▄█▀ ██▓ ███▄    █   ▄████ 
-\033[1;91m▓██   ▒▓█████▄     ██▄█▒ ▓██▒ ██ ▀█   █  ██▒ ▀█▒
-\033[1;92m▒████ ░▒██▒ ▄██   ▓███▄░ ▒██▒▓██  ▀█ ██▒▒██░▄▄▄░
-\033[1;92m░▓█▒  ░▒██░█▀     ▓██ █▄ ░██░▓██▒  ▐▌██▒░▓█  ██▓
-\033[1;34m░▒█░   ░▓█  ▀█▓   ▒██▒ █▄░██░▒██░   ▓██░░▒▓███▀▒
- \033[1;34m▒ ░   ░▒▓███▀▒   ▒ ▒▒ ▓▒░▓  ░ ▒░   ▒ ▒  ░▒   ▒ 
- \033[1;91m░     ▒░▒   ░    ░ ░▒ ▒░ ▒ ░░ ░░   ░ ▒░  ░   ░ 
- \033[1;91m░ ░    ░    ░    ░ ░░ ░  ▒ ░   ░   ░ ░ ░ ░   ░ 
+\033[1;91m  ▓██   ▒▓█████▄     ██▄█▒ ▓██▒ ██ ▀█   █  ██▒ ▀█▒
+\033[1;92m  ▒████ ░▒██▒ ▄██   ▓███▄░ ▒██▒▓██  ▀█ ██▒▒██░▄▄▄░
+\033[1;92m  ░▓█▒  ░▒██░█▀     ▓██ █▄ ░██░▓██▒  ▐▌██▒░▓█  ██▓
+\033[1;34m  ░▒█░   ░▓█  ▀█▓   ▒██▒ █▄░██░▒██░   ▓██░░▒▓███▀▒
+ \033[1;34m ▒ ░   ░▒▓███▀▒   ▒ ▒▒ ▓▒░▓  ░ ▒░   ▒ ▒  ░▒   ▒ 
+ \033[1;91m ░     ▒░▒   ░    ░ ░▒ ▒░ ▒ ░░ ░░   ░ ▒░  ░   ░ 
+ \033[1;91m ░ ░    ░    ░    ░ ░░ ░  ▒ ░   ░   ░ ░ ░ ░   ░ 
         \033[1;91m░         ░  ░    ░           ░       ░ 
              \033[1;91m░                                  
-[green1][bold]FB KING BIG XIXEMON
-          [green_yellow]FB KING [dark_olive_gre]AROHI[pale_green1] IS[dark_sea_green…] XIXEMON
+[green_yellow]FB KING [dark_olive_gre]AROHI[pale_green1] IS[dark_sea_green…] XIXEMON AROHO ALIF KHAN
 """)
 ll=str([hari,tanggal])
 kk=str([xy,co])
 hx=(f"""  [bold green1]DEVELOPER[medium_purple1]   ⟩ [bold green1]SUKHER KALI SESH
   [bold green1]FACEBOOK[medium_purple1]    ⟩ [bold green1]SUKHER KALI SESH
-  [bold green1]TOOL/STATUS[medium_purple1] ⟩ [bold green1]PAID
+  [bold green1]TOOL/STATUS[medium_purple1] ⟩ [bold green1]PAID 200
   [bold green1]TODAY DATE[medium_purple1]  ⟩ [bold green1]{ll}
   [bold green1]IP COUNTRY[medium_purple1]  ⟩ [bold green1]{kk}""")
 def banner():
