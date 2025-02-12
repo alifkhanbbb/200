@@ -31,7 +31,7 @@ except:
     pass
 os.system("clear")
 os.system('xdg-open https://www.facebook.com/djpagladirector')
-login()
+#login()
 	
 	#import getpass
 
