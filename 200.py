@@ -921,7 +921,7 @@ def main_apv():
     banner()
     try:
     	httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
-        key1 = open('/sdcard/approval_key.txt', 'r').read()
+       # key1 = open('/sdcard/approval_key.txt', 'r').read()
     except IOError:
         banner()
         myid = uuid.uuid4().hex[:30]
