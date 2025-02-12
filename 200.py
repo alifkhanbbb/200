@@ -921,16 +921,19 @@ def main_apv():
     banner()
     try:
     	httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
-       # key1 = open('/sdcard/approval_key.txt', 'r').read()
-    except IOError:
-        banner()
-        myid = uuid.uuid4().hex[:30]
-        kok = open('/sdcard/approval_key.txt', 'w')
-        kok.write(myid+id)
-        kok.close()
-    r1 = requests.get('https://bryxxxpogi.blogspot.com/2025/02/auto-create.html?m=1').text
-    if id in r1:
-        print(Panel(f'[bold green1]  YOUR KEY HAS BEEN APPROVED',subtitle="[bold red]● [bright_yellow]● [green1]●",subtitle_align='left',title="[bold red]● [bright_yellow]● [green1]●",title_align='right',width=102,padding=0,style=f"bold magenta2"))
+    #____APPROVAL SYSTEM ADD_____#
+def meyexudi():
+  os.system('clear')
+  print(logo)
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "-".join(uuid)
+  try:
+    httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
+    if id in httpCaht:
+      print(fuckyoursali)
+      print(hedaborakarent)
+      msg = str(os.geteuid())
+      #time.sleep(0.5)
         bryxcreate()
     else:
         banner()
