@@ -26,6 +26,12 @@ from datetime import datetime
 from time import sleep as slp
 folder_path = '/sdcard/AUTO-BRYX'
 try:
+	username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
+    password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
+
+    if username == 'XIX' and password == 'EMON2':
+        print(' \033[0;92mYou Have Successfully Logged in.')
+        break
     os.makedirs(folder_path, exist_ok=True)
 except:
     pass
@@ -921,40 +927,18 @@ def main_apv():
     banner()
     try:
     	httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
-alltimexudi =(""" \033[32;1m[-] ONLY APPROVAL SYSTEM 7 DEYS 250TK 30 500TK FOR    APPROVAL""")
-xudartimenai =(""" \033[32;1m[+] CONTACT ADMIN PLZ ENTAR""")
-fuckyoursali =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸𝚂 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙰𝙿𝙿𝚁𝙾𝚅𝙴𝙳""")
-xudinaministar =(""" \033[32;1m[-] Importent Note """)
-hedaborakarent =(""" \033[32;1m[𝟸] 𝙵𝚄𝙲𝙺 𝙱𝚈𝙿𝙰𝚂𝙰𝚁 𝙲𝙷𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝙳𝙰𝚃𝙰 """)
-#____APPROVAL SYSTEM ADD_____#
-def meyexudi():
-  os.system('clear')
-  print(logo)
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  try:
-    httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
-    if id in httpCaht:
-      print(fuckyoursali)
-      print(hedaborakarent)
-      msg = str(os.geteuid())
-      #time.sleep(0.5)
-      print()
-      pass
+       # key1 = open('/sdcard/approval_key.txt', 'r').read()
+    except IOError:
+        banner()
+        myid = uuid.uuid4().hex[:30]
+        kok = open('/sdcard/approval_key.txt', 'w')
+        kok.write(myid+id)
+        kok.close()
+    r1 = requests.get('https://bryxxxpogi.blogspot.com/2025/02/auto-create.html?m=1').text
+    if id in r1:
+        print(Panel(f'[bold green1]  YOUR KEY HAS BEEN APPROVED',subtitle="[bold red]● [bright_yellow]● [green1]●",subtitle_align='left',title="[bold red]● [bright_yellow]● [green1]●",title_align='right',width=102,padding=0,style=f"bold magenta2"))
+        bryxcreate()
     else:
-      print(meyermarexudi)
-     # print(" \033[32;1m[+] Your Kay : "+id)
-      print(' \x1b[38;5;208m╔══[𝟷] FREE USER NOT CAME INBOX')
-      print(' \x1b[1;97m║══[𝟸] FREE-FIRE-TIK-TOK- ID CLONING')
-      print(' \x1b[1;91m║══[𝟸] ONLY ACTIVE ID CLONE')
-      print(' \x1b[1;92m║══[𝟸] UNACTIVE ID NOT ALLOW')
-      print(' \x1b[1;93m║══[𝟸] CP ID LOGIN 50%')
-      print(' \x1b[1;94m║══[𝟸] WI-FI WORKING 80%')
-      print(' \x1b[1;95m║══[𝟸] 15 DAY 400 TAKA ')
-      print(' \x1b[38;5;50m║══[𝟸] 30 DAY 800 TAKA ')
-      print(" \033[1;32m║══[𝟸] YOUR KEY : "+id)
-      input(' \x1b[38;5;50m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801867850909?text='+tks),approval()   
         banner()
         print(Panel(f'[bold white]  YOUR KEY : [bold green1]{id}\n[bold white]  THIS TOOL IS PAID SO NEED GET APPROVAL',subtitle="[bold red]● [bright_yellow]● [green1]●",subtitle_align='left',title="[bold red]● [bright_yellow]● [green1]●",title_align='right',width=102,padding=0,style=f"bold magenta2"))
         input('  PRESS ENTER TO SEND KEY ADMIN')
