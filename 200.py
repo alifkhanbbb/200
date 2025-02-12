@@ -34,7 +34,7 @@ os.system('xdg-open https://www.facebook.com/djpagladirector')
 username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
    # password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
 
-    if username == 'XIX' and password == 'EMON2':
+    if username == 'XIX'
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
 R="[bold red]"
