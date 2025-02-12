@@ -41,8 +41,8 @@ while attemps < 12345677901:
     username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
     password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
 
-    if username == 'F' and password == '4':
-        print(' \033[0;92mYou Have Successfully Logged in.')
+    if username == 'LOVE' and password == 'YOU2':
+        print(' \033[1;31mYou \033[1;32mHave \033[1;33mSuccessfully \033[1;34mLogged in.')
         break
 R="[bold red]"
 G="[bold green]"
@@ -659,9 +659,9 @@ def clear():
 
 logo=("""
 
-\x1b[1;91m▒█▀▀▀ ▒█▀▀█ 　 ▒█░▄▀ ▀█▀ ▒█▄░▒█  █▀▀█ 
-\x1b[1;92m▒█▀▀▀ ▒█▀▀▄ 　 ▒█▀▄░ ▒█░ ▒█▒█▒█  █░▄▄ 
-\x1b[1;34m▒█░░░ ▒█▄▄█ 　 ▒█░▒█ ▄█▄ ▒█░░▀█  █▄▄█    [green1][bold]VERSION/0.5
+\x1b[1;91m▒█▀▀▀ ▒█▀▀█ 　 ▒█░▄▀ ▀█▀ ▒█▄░▒█  █▀▀█[green1][bold]AROHI JANNAT
+\x1b[1;92m▒█▀▀▀ ▒█▀▀▄ 　 ▒█▀▄░ ▒█░ ▒█▒█▒█  █░▄▄[green1][bold]EMON ISLAM
+\x1b[1;31m▒█░░░ ▒█▄▄█ 　 ▒█░▒█ ▄█▄ ▒█░░▀█  █▄▄█[green1][bold]ALIF AHMED
           [green_yellow]FB KING [dark_olive_gre]AROHI[pale_green1] IS[dark_sea_green…] XIXEMON
 """)
 ll=str([hari,tanggal])
