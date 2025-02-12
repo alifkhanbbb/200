@@ -25,18 +25,18 @@ from bs4 import BeautifulSoup as sop
 from datetime import datetime
 from time import sleep as slp
 folder_path = '/sdcard/AUTO-BRYX'
-try:
-	username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
-    password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
-
-    if username == 'XIX' and password == 'EMON2':
-        print(' \033[0;92mYou Have Successfully Logged in.')
-        break
+try:	
     os.makedirs(folder_path, exist_ok=True)
 except:
     pass
 os.system("clear")
 os.system('xdg-open https://www.facebook.com/djpagladirector')
+username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
+    password = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER PASSWORD: ')
+
+    if username == 'XIX' and password == 'EMON2':
+        print(' \033[0;92mYou Have Successfully Logged in.')
+        break
 R="[bold red]"
 G="[bold green]"
 Y="[bold yellow]"
