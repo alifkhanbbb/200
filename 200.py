@@ -922,7 +922,7 @@ def main_apv():
     try:
     	httpCaht = requests.get('https://github.com/arohi999/KHALIFA/blob/main/Approval.txt').text
     #____APPROVAL SYSTEM ADD_____#
-def meyexudi():
+#def meyexudi():
   os.system('clear')
   print(logo)
   uuid = str(os.geteuid()) + str(os.getlogin())
