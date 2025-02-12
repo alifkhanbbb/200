@@ -33,7 +33,7 @@ os.system("clear")
 os.system('xdg-open https://www.facebook.com/djpagladirector')
 login()
 	
-	import getpass
+	#import getpass
 
 attemps = 0
 
